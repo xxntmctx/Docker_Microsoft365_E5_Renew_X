@@ -1,7 +1,7 @@
 #设置依赖的镜像
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 #设置镜像创建者
-MAINTAINER hanhongyong
+MAINTAINER xxntmctx
 #设置工作目录
 WORKDIR /app
 #copy文件到app目录下
